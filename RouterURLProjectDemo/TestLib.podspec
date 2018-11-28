@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TestLibForCocopods/testLib/*.{h,m}'
+  s.source_files = 'RouterURLProjectDemo/TestLibForCocopods/testLib/*.{h,m}'
 end
 
 #
