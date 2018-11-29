@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'LL_TestLib'
-  s.version = '0.0.4'
+  s.version = '0.0.5'
   s.license = 'MIT'
   s.summary = 'test upload cocopods lib'
   s.homepage = 'https://github.com/LH-Liu/TestLibForCocopods'
