@@ -7,5 +7,5 @@ Pod::Spec.new do |s|
   s.authors = { 'brillianceLiu' => '936373772@qq.com' }
   s.source = { :git => 'https://github.com/LH-Liu/TestLibForCocopods.git', :tag => s.version }
   s.ios.deployment_target = '6.0'
-  s.source_files = "TestLibForCocopods/**/*"
+  s.source_files = "TestLibForCocopods/RouterURLProjectDemo/TestLibForCocopods/**/*"
 end
