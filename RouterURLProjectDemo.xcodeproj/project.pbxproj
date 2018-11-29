@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA22909121AE874000AC02BE /* TestLib.m in Sources */ = {isa = PBXBuildFile; fileRef = BA22909021AE874000AC02BE /* TestLib.m */; };
+		BA22909621AE94C200AC02BE /* TestLib.m in Sources */ = {isa = PBXBuildFile; fileRef = BA22909521AE94C200AC02BE /* TestLib.m */; };
 		BA4126FD21ABE91600403C29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4126FC21ABE91600403C29 /* AppDelegate.m */; };
 		BA41270021ABE91600403C29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4126FF21ABE91600403C29 /* ViewController.m */; };
 		BA41270321ABE91700403C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA41270121ABE91700403C29 /* Main.storyboard */; };
@@ -17,9 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA22908E21AE874000AC02BE /* TestLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLib.h; sourceTree = "<group>"; };
-		BA22908F21AE874000AC02BE /* LL_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LL_Header.h; sourceTree = "<group>"; };
-		BA22909021AE874000AC02BE /* TestLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLib.m; sourceTree = "<group>"; };
+		BA22909321AE94C200AC02BE /* TestLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLib.h; sourceTree = "<group>"; };
+		BA22909421AE94C200AC02BE /* LL_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LL_Header.h; sourceTree = "<group>"; };
+		BA22909521AE94C200AC02BE /* TestLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLib.m; sourceTree = "<group>"; };
 		BA4126F821ABE91600403C29 /* RouterURLProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterURLProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4126FB21ABE91600403C29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA4126FC21ABE91600403C29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,22 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BA22908C21AE874000AC02BE /* TestLibForCocopods */ = {
+		BA22909221AE94C200AC02BE /* TestLibForCocopods */ = {
 			isa = PBXGroup;
 			children = (
-				BA22908D21AE874000AC02BE /* testLib */,
+				BA22909321AE94C200AC02BE /* TestLib.h */,
+				BA22909421AE94C200AC02BE /* LL_Header.h */,
+				BA22909521AE94C200AC02BE /* TestLib.m */,
 			);
 			path = TestLibForCocopods;
-			sourceTree = "<group>";
-		};
-		BA22908D21AE874000AC02BE /* testLib */ = {
-			isa = PBXGroup;
-			children = (
-				BA22908E21AE874000AC02BE /* TestLib.h */,
-				BA22908F21AE874000AC02BE /* LL_Header.h */,
-				BA22909021AE874000AC02BE /* TestLib.m */,
-			);
-			path = testLib;
 			sourceTree = "<group>";
 		};
 		BA4126EF21ABE91600403C29 = {
@@ -80,7 +72,7 @@
 		BA4126FA21ABE91600403C29 /* RouterURLProjectDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BA22908C21AE874000AC02BE /* TestLibForCocopods */,
+				BA22909221AE94C200AC02BE /* TestLibForCocopods */,
 				BA4126FB21ABE91600403C29 /* AppDelegate.h */,
 				BA4126FC21ABE91600403C29 /* AppDelegate.m */,
 				BA4126FE21ABE91600403C29 /* ViewController.h */,
@@ -167,7 +159,7 @@
 				BA41270021ABE91600403C29 /* ViewController.m in Sources */,
 				BA41270B21ABE92E00403C29 /* main.m in Sources */,
 				BA4126FD21ABE91600403C29 /* AppDelegate.m in Sources */,
-				BA22909121AE874000AC02BE /* TestLib.m in Sources */,
+				BA22909621AE94C200AC02BE /* TestLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
