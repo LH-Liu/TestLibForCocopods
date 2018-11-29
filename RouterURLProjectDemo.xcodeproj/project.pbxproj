@@ -7,19 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA22909621AE94C200AC02BE /* TestLib.m in Sources */ = {isa = PBXBuildFile; fileRef = BA22909521AE94C200AC02BE /* TestLib.m */; };
 		BA4126FD21ABE91600403C29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4126FC21ABE91600403C29 /* AppDelegate.m */; };
 		BA41270021ABE91600403C29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4126FF21ABE91600403C29 /* ViewController.m */; };
 		BA41270321ABE91700403C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA41270121ABE91700403C29 /* Main.storyboard */; };
 		BA41270521ABE92E00403C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA41270421ABE92E00403C29 /* Assets.xcassets */; };
 		BA41270821ABE92E00403C29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA41270621ABE92E00403C29 /* LaunchScreen.storyboard */; };
 		BA41270B21ABE92E00403C29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41270A21ABE92E00403C29 /* main.m */; };
+		BA4D9F7421AF9B5E00F3349A /* TestLib.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4D9F7321AF9B5E00F3349A /* TestLib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA22909321AE94C200AC02BE /* TestLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLib.h; sourceTree = "<group>"; };
-		BA22909421AE94C200AC02BE /* LL_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LL_Header.h; sourceTree = "<group>"; };
-		BA22909521AE94C200AC02BE /* TestLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLib.m; sourceTree = "<group>"; };
 		BA4126F821ABE91600403C29 /* RouterURLProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterURLProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4126FB21ABE91600403C29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA4126FC21ABE91600403C29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,6 +27,9 @@
 		BA41270721ABE92E00403C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA41270921ABE92E00403C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA41270A21ABE92E00403C29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA4D9F7021AF9B5E00F3349A /* LL_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LL_Header.h; sourceTree = "<group>"; };
+		BA4D9F7221AF9B5E00F3349A /* TestLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLib.h; sourceTree = "<group>"; };
+		BA4D9F7321AF9B5E00F3349A /* TestLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLib.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,16 +43,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BA22909221AE94C200AC02BE /* TestLibForCocopods */ = {
-			isa = PBXGroup;
-			children = (
-				BA22909321AE94C200AC02BE /* TestLib.h */,
-				BA22909421AE94C200AC02BE /* LL_Header.h */,
-				BA22909521AE94C200AC02BE /* TestLib.m */,
-			);
-			path = TestLibForCocopods;
-			sourceTree = "<group>";
-		};
 		BA4126EF21ABE91600403C29 = {
 			isa = PBXGroup;
 			children = (
@@ -72,7 +62,7 @@
 		BA4126FA21ABE91600403C29 /* RouterURLProjectDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BA22909221AE94C200AC02BE /* TestLibForCocopods */,
+				BA4D9F6F21AF9B5E00F3349A /* TestLibForCocopods */,
 				BA4126FB21ABE91600403C29 /* AppDelegate.h */,
 				BA4126FC21ABE91600403C29 /* AppDelegate.m */,
 				BA4126FE21ABE91600403C29 /* ViewController.h */,
@@ -84,6 +74,24 @@
 				BA41270A21ABE92E00403C29 /* main.m */,
 			);
 			path = RouterURLProjectDemo;
+			sourceTree = "<group>";
+		};
+		BA4D9F6F21AF9B5E00F3349A /* TestLibForCocopods */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D9F7021AF9B5E00F3349A /* LL_Header.h */,
+				BA4D9F7121AF9B5E00F3349A /* TestLib */,
+			);
+			path = TestLibForCocopods;
+			sourceTree = "<group>";
+		};
+		BA4D9F7121AF9B5E00F3349A /* TestLib */ = {
+			isa = PBXGroup;
+			children = (
+				BA4D9F7221AF9B5E00F3349A /* TestLib.h */,
+				BA4D9F7321AF9B5E00F3349A /* TestLib.m */,
+			);
+			path = TestLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,7 +167,7 @@
 				BA41270021ABE91600403C29 /* ViewController.m in Sources */,
 				BA41270B21ABE92E00403C29 /* main.m in Sources */,
 				BA4126FD21ABE91600403C29 /* AppDelegate.m in Sources */,
-				BA22909621AE94C200AC02BE /* TestLib.m in Sources */,
+				BA4D9F7421AF9B5E00F3349A /* TestLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
