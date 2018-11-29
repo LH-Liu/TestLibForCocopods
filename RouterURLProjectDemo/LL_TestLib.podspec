@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '6.0'
   s.source_files = "TestLibForCocopods/LL_Header.h"
   s.subspec "TestLib" do |ss|
-  ss.source_files = "TestLibForCocopods/TestLib/**/*.{h,m}"
+  ss.source_files = "TestLibForCocopods/TestLib/*.{h,m}"
   end
 end
